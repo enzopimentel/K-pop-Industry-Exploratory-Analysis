@@ -6,16 +6,16 @@ This project analyzes data about idols, their groups, company, nationality, amon
 This project utilizes three datasets. First, the all_kpop_idols.csv from Kaggle, contains all the idols, their country of origin, their group affiliation, their birthplace, date of birth, full and stage names, and their gender. The other two are from the kpop database website dbkpop. This is where the datasets for the female (kpop_girlgroups.csv) and male groups (kpop_boygroups.csv) were from. These contained the groups, their member count, date of debut, their company, fanclub name, and their activity status. 
 
 ## About the Files
-The project contains the [**Jupyter notebook used to scrape the datasets used**](https://github.com/enzopimentel/K-pop-Industry-Exploratory-Analysis/blob/main/kpop_scraper.ipynb), the [**Power BI file**](https://github.com/enzopimentel/K-pop-Industry-Exploratory-Analysis/blob/main/kpop%20analysis.pbix) for the dashboards of the analysis and data, a [**pdf version of the Power BI file**](https://github.com/enzopimentel/K-pop-Industry-Exploratory-Analysis/blob/main/kpop%20analysis.pdf), and the  written report of the analysis as a word file.
+The project contains the [**Jupyter notebook used to scrape the datasets used**](https://github.com/enzopimentel/K-pop-Industry-Exploratory-Analysis/blob/main/kpop_scraper.ipynb), the [**Power BI file**](https://github.com/enzopimentel/K-pop-Industry-Exploratory-Analysis/blob/main/kpop%20analysis.pbix) for the dashboards of the analysis and data, a [**pdf version of the Power BI file**](https://github.com/enzopimentel/K-pop-Industry-Exploratory-Analysis/blob/main/kpop%20analysis.pdf), and the [**written report**](https://github.com/enzopimentel/K-pop-Industry-Exploratory-Analysis/blob/main/An%20Exploratory%20Data%20Analysis%20on%20K-Pop%20Idols%20from%201995-2023.docx) of the analysis as a word file.
 
 The datasets were created in **Visual Studio Code**, using the _Jupyter Notebook_ extension. The Python libraries used were **BeautifulSoup** and **Pandas**. The data was analyzed and visualized in **Power BI**.
 
 ## About the Data
-### From Kaggle:
+### From [Kaggle](https://www.kaggle.com/datasets/kimjihoo/kpopdb):
 It contained 1793 entries representing idols. The dataset included information such as stage name, full name, Korean name, date of birth, group affiliation, nationality, height, weight, birthplaces, other group associations, former groups, gender, and social media usernames.
 
-### From dbkpop (girl groups):
+### From [dbkpop](https://dbkpop.com/db/k-pop-girlgroups/) (girl groups):
 Focused exclusively on girl groups. It comprised 215 entries representing different girl groups and included information such as the group name, abbreviation, Korean name, debut date, company, current member count, original member count, fanclub name, and active status.
 
-### From dbkpop (boy groups):
+### From [dbkpop](https://dbkpop.com/db/k-pop-boybands/) (boy groups):
 Focused specifically on boy groups. It consisted of 210 entries representing various boy groups and included information such as the group name, abbreviation, Korean name, debut date, company, current member count, original member count, fanclub name, and active status.
